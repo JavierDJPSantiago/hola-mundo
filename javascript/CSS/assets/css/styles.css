@@ -1,0 +1,42 @@
+
+ /*comentarios en css */
+.encabezado{
+    /*font-size: tamaño de fuente*/
+    /*medidas comunes: px, %, em, rem */
+    font-size: 72px;
+    /*color de fuente*/
+    color:red;
+    /* background-color: color de subrayado o fondo*/
+    background-color: #1fc543;
+    /*text-align: nos permite alinear texto*/
+    text-align: center;
+
+    text-transform: lowercase;
+
+    }
+    body{background-color: slategrey;} /*color de fondo de la pagina*/
+
+
+    #texto{
+        color: red;
+        background-color: green;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+
+    .texto{
+        color: white;
+        background-color: black;
+    }
+    p{
+        color: white;
+        background-color: red;
+    }
+
+
+
+    p{
+        color: yellow;
+        background-color: teal;
+    }
