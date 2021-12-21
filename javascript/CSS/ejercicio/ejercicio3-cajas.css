@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(10, 88, 10, 0.795);
+    
+    
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+
+}
+
+
+.caja{
+    width: 400px;
+    height: 100px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.blanca{
+    color:black;
+    border: 10px solid black;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 900px;
+
+}
+
+.marron{
+    border: 20px solid rgba(112, 21, 21, 0.76);
+    background-color:orangered;
+    margin-right: 900px;
+}
+
+.naranja{
+    
+    border: 20px solid rgb(129, 95, 32);
+    background-color: rgb(185, 185, 19);
+    margin-left: 900px;
+}
+
+.azul{
+    
+    border: 5px dashed rgb(0, 162, 255);
+    background-color: blue;
+    margin-left: 900px;
+    
+}
+
