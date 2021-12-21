@@ -1,0 +1,55 @@
+.formulario{
+    background-color: green;
+    border: 10px solid silver ;
+    border-radius: 18px;
+    padding: 30px;
+}
+
+
+label{
+    margin-left: 60px;
+    
+    
+}
+
+
+#nombre{
+    border: 2px solid red;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+#correo{
+    border: 2px solid red;
+    margin-left: 38px;
+    margin-bottom: 5px;
+}
+
+#numero{
+    border: 2px solid red;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+#pais{
+    border: 2px solid red;
+    margin-left: 56px;
+    margin-bottom: 5px;
+}
+
+#tarjeta{
+    border: 2px solid red;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+#nombretarjeta{
+    border: 2px solid red;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.raya{
+    color: white;
+}
+

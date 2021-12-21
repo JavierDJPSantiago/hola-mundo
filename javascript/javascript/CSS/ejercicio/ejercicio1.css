@@ -1,0 +1,77 @@
+body{background-color: rgb(41, 87, 41);}
+
+
+h1{
+    
+    font-size: 50px;
+
+    color:black;    
+}
+
+
+
+.uno{
+    
+    font-size: 20px;
+    
+    color:white;
+
+    font-style: italic;
+}
+
+.dos{
+    
+    font-size: 20px;
+    
+    color:rgb(197, 197, 147);
+
+}
+.tres{
+    
+    font-size: 20px;
+    
+    color:yellow;
+
+}
+
+.cuatro{
+    
+    font-size: 20px;
+    
+    color:white;
+
+    font-style: italic;
+}
+
+.cinco{
+    
+    font-size: 20px;
+    
+    color:yellow;
+
+}
+
+.seis{
+    
+    font-size: 18px;
+    
+    color:rgb(148, 49, 66);
+
+}
+
+.siete{
+    
+    font-size: 20px;
+    
+    color:rgb(202, 202, 130);
+
+}
+
+.ocho{
+    
+    font-size: 20px;
+    
+    color:rgb(148, 49, 66);
+
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    ><form>
+        <input type="text" />
+        <input type="date" />
+        <input type="date" />
+        <input type="password" />
+        <input type= "file" />
+        <input type= "checkbox" />
+        <input type= "radio" />
+        <input type="submit" />
+        <input type="button" value="Enviar" />
+    </form> 
+    <button>Hola</button>
+    
+    <h1>Formulario</h1>
+
+
+    <form class="formulario">
+        
+          
+        <!--Fieldset: permite organizar mejor el codigo, pero con css se puede hacer lo mismo, usa el que gustes pero mejor es div
+        <fieldset></fieldset> -->
+
+            <div class="clase_nombre">
+                
+                <label for="nombre">Nombre</label> <!--Seleccionar input y darle etiqueta-->
+
+                <input id="nombre" type="=text" name="nombre" placeholder="Escribe tu nombre.."/>
+                
+            </div>
+        
+        
+            <div class="clase_apellido">
+                
+                <label for="apellido">Apellido</label>
+                
+                <input id="apellido" type="text" name="apellido" placeholder="Ahora escribe tu apellido"/>
+                
+            </div>
+                
+        
+            <div class="password">
+                    
+                
+                <label for= "password">Contraseña
+                
+                </label_>
+                
+                <input id="password" type="password" name="password" placeholder="Escribe tu contraseña"/>
+                
+            </div>
+        
+            <div class="correo">
+                <label for="correo">correo</label>
+                <input id="correo" name="correo" type="email" placeholder="Escribe tu correo">
+            </div>
+            
+            <div class="enviar">
+                
+                <input type="submit" value="Enviar"/> <!--cambiamos de button a submit porque no hacia nada buton y aparte submit envia la infor y refresca las pestañas-->
+                
+            </div>
+        
+        </form>
+        
+        <br />
+
+        <fieldset>
+            <legend>Ingresa el número</legend>
+
+            <label for="numero">Numero</label>
+
+            <input id="number" type="number" name="numero" min="40" max="50"/>
+
+            <label for="rango"></label>
+            <input id="rango" name="rango" type="range" min="50" />
+        </fieldset>
+
+</body>
+</html>
