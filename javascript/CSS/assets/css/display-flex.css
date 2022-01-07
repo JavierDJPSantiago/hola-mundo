@@ -1,0 +1,35 @@
+body{
+    background-color: lightgray;
+}
+
+.contenedor{
+    display: flex; /*cambio la distribucion de las cajas, ahora estan en linea, a un lado del otro elemento*/
+    height: 600px;
+    border: 3px solid purple;
+    justify-content: space-evenly;   /*dice como se distribuye el contenido horzontal, por defecto viene baseline, que empieza desde la derecha a la izquierda, space-around nos deja espacios entre elementos de izquierda a derecha, center los manda al centro, space-between espacio entre elementos pero no al lado no deja espacios al inicio ni al final, space-evenly similar a around pero los espacios son equitativos, space-end todos los elementos a la derecha*/
+    align-items: flex-start; /*dice como se distribuye el contenido en vertical, flex-start elementos en el techo*//*align-items: se refiere a todos los elementos dentro de la caja o contenedor*/
+    flex-wrap: wrap;/*sin esto, los elementos cambian de tamaño y se compactan los elementos, en wrap hace que los elementos se vayan apilando*/
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.rojo{
+    background-color: red;
+
+}
+
+.azul{
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+    /*align-self: center;*/ /*align-self se refiere a la caja .verde, sin afectar a los elementos dentro de el*/
+}
+.amarillo{
+    background-color: yellow;
+}

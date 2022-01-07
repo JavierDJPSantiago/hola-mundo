@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Repaso</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+</head>
+
+<body>
+    <h1>Repaso HTML</h1>
+    <h2 id="subtitulo">subtitulo</h2>
+    <h2>Formulario</h2>
+    <form>
+        <fieldset>
+            <legend>Datos</legend>
+            <div>
+                <label for="nombre">Nombre</label> <!--texto antes del cuadro-->
+                <input id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre"/> <!--cuadro donde va el texto--> <!--placeholder solo son letras que remarcan el cuadro, sin valor--> <!--value="Entrar"--es para dar un texto con valor al cuadro, que aparezcan de froma predeterminada   -->
+            </div>
+            <div>
+                <label for="apellido">Apelido</label>
+                <input id="apellido" name="apellido" type="text" placeholder="Ingrese su apellido"/>
+            </div>
+            <div>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea> <!--cuadro de texto o de comentario, cols son columnas, rows son filas, como el ancho y alto-->
+            </div>
+            <div>
+                <input type="button" value="Enviar"/> <!--value: palabra dentro del boton-->
+            </div>
+            <h2>Tabla</h2>
+
+            <table>
+                <thead> <!--titulos de tabla-->
+                    <!--colspan-->
+                    <!--rowspan-->
+                    <tr>
+                    <th>Cabecera</th> <!--columna-->
+                    <th>Cabecera</th> <!--fila-->
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>pie</td>
+                        <td>pie</td>
+                    </tr>
+                </tfoot>
+
+
+            </table>
+
+        </fieldset>
+    </form>
+
+     <!--Inline-->
+     <a class="enlace" href="servicios.html" target="_blank">Enlace</a> <!--target:blank-- que abra en otra ventana-->
+     <a class="enlace" href="servicios.html" target="_blank">Enlace 2</a>
+     
+    
+     <span class="enlace">este es un span</span>
+     <!--block en bloque-->
+     <p id="bloque">Este es un parrafo</p>
+     <h1 id="bloque">Titulo</h1>
+     <h2 id="bloque">subtitulo h2</h2>
+     <h6 id="bloque">subtitulo h6</h6>
+     <div id="bloque">Este es un div</div>
+
+      <!--elementos en bloque no se pueden alinear el texto-->
+
+      <a href="servicios.html"><button>Hola</button></a>
+      <a href="servicios.html"><img src="" alt="perrito" width="300"></a>
+
+      <a href="#subtitulo">ir arriba</a> <!--para dirigirte a un id del html-->
+
+
+</body>
+
+
+
+
+</html>

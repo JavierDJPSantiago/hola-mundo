@@ -1,0 +1,47 @@
+body{
+    background-color: lightgray;
+}
+
+.titulo-principal{
+    text-align: center;
+    letter-spacing: 10px; /*espacio que hay entre las letras=> HTML ==> H T M L*/
+}
+
+.contenido-principal{
+    width: 90%;  /*% porcentaje que utiliza de la patalla, recomendado*/
+    margin: 0 auto;
+    /*margin: 0; un solo valor le da el mismo tamaño a todos los margenes*/
+}
+
+
+/*.contenido-principal article{
+    width: 80%;
+    margin: 0 auto;
+}*/
+
+
+
+.contenido-principal .encabezado{
+    background-color: gray;
+    color: white;
+    padding: 10px 5px;
+    /*padding: margen interior, puedes usar valores como el margin*/
+}
+
+.contenido-principal .contenido-imagen{
+    float: left; /*flotamiento a la izquierda, posicionamiento*/
+    /*Nota: al usar un float, los siguientes elementso despues de este, se alinearan al espacio que dejo el elemento, para evitarlo utiliza un div en html dale calse y le pones en estilo float: none; clear: both, esto quitara el flotado*/
+}
+
+.contenido-principal .contenido{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contenido-principal .contenido-texto{
+    margin-left: 150px; /*tambien le pudimos dar margen a la imagen para separar el texto y la imagen */
+}
+
+.contenido-principal .contenido-texto p{
+    text-indent: 20px; /*sangria*/
+}

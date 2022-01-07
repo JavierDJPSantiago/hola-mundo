@@ -1,0 +1,21 @@
+table, tr, th, td{
+    border: 1px solid black;
+
+}
+
+table{
+    width: 400px;
+}
+
+
+
+.enlace{
+    display: inline-block; /* inline, hace que los elementos se pongan a lado del otro en una linea, block hace que le demos capacidad de anchura y altura*/
+    background-color: blue;
+}
+
+#bloque{
+    text-align: center;
+
+    background-color: red;
+}

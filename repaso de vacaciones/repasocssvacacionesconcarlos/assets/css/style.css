@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding: 0;
+    /*no dejaba que llegara a toda la pantalla por el user -- por eso quitamos el pading y el margin que nos ponia*/
+}
+
+.menu{
+    background-color: #e48b8b;
+    height: 50px;
+}
+
+.menu ul{          /*decrile que tome a ul dentro de menu*/
+    width: 600px;
+    margin: 0 auto; /*para alinear elementos en bloque, como los div o los li en el centro*/
+    text-align: center;
+}
+
+
+
+.menu .elemento{
+    display: inline;
+    margin: 0 20px;
+    /*margin: superior e inferior, derecho e izquierdo: cuando son dos datos*/
+    /*margin: superior, derecha, inferiror, izquierda: cuando son cuatro datos */
+}
+
+.elemento a{      /*pido que tome los a dentro de elemento*/
+    font-size: 20px;
+    color: white;
+    text-decoration: none; /*quitar subrayado*/
+    line-height: 50px; /*centrar el texto en medio hablando de inferior y superior, solo texto y no caja*//*pusimos un solo dato, por lo que hbalamos de inferior y superior*/
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /*Si el contenido no respeta el tamaño estableciod del bloque, desplazara el contenido hacia abajo*/
+    transition: color 3s; /*pedirle que cambie el color en un timepo determinado*/
+}
+
+.elemento a:hover{  /*causa cambios que solo ocurriran al pasar el raton por el elemento, en este caso el menu*/
+    color: black; /*cambia de color las letras*/
+    /*background-color: yellow;*//* le da un color de sombreado a las letras, el tamaño del sombreado depende de la caja donde esten las letras*/
+    /*font-size: 30px;*/ /*cambia el tamaño de las letras*/
+
+}
+
