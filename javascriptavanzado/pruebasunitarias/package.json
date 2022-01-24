@@ -1,0 +1,14 @@
+{
+  "name": "pruebasunitarias",
+  "version": "1.0.0",
+  "description": "pruebas unitarias",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Javier",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
